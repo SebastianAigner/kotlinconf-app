@@ -12,6 +12,8 @@ kotlin {
         implementation(libs.compose.components.resources)
         implementation(libs.kotlinx.coroutines.swing)
     }
+
+    jvmToolchain(21)
 }
 
 compose.desktop {
